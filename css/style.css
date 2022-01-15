@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul,
@@ -67,6 +67,7 @@ section {
 
 .menu_login {
     flex-basis: 50%;
+
 }
 
 .menu_login a {
@@ -678,8 +679,9 @@ section {
     }
 
     .search_menu i {
-        font-size: 20px !important;
+        font-size: 25px !important;
         margin-top: 10px;
+        margin-left: 40px;
     }
 
     .all_menu {
@@ -863,8 +865,9 @@ section {
     }
 
     .search_menu i {
-        font-size: 20px !important;
+        font-size: 25px !important;
         margin-top: 10px;
+        margin-left: 215px;
     }
 
     .all_menu {
@@ -910,7 +913,7 @@ section {
     .banner_text p {
         width: 300px;
         font-size: 13px;
-        margin: 0 auto;
+        margin: 15px auto;
     }
 
     .banner_btn a {
@@ -1036,11 +1039,11 @@ section {
         display: block;
         display: grid;
         justify-content: right;
-        margin-right: 40px;
+        margin-right: 60px;
     }
 
     .search_menu i {
-        font-size: 20px !important;
+        font-size: 25px !important;
         margin-top: 10px;
     }
 
@@ -1071,8 +1074,9 @@ section {
     }
 
     .banner_img img {
-        width: 360px;
+        width: 330px;
         height: 250px;
+        margin-right: 20px;
 
     }
 
