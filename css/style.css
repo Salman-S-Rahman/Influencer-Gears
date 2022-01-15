@@ -66,24 +66,20 @@ section {
 }
 
 .menu_login {
-    flex-basis: 30%;
+    flex-basis: 50%;
 }
 
-.menu_login ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.menu_login ul a {
-    width: 168px;
-    height: 44px;
+.menu_login a {
+    width: 250px;
+    height: 47px;
     line-height: 44px;
     text-align: center;
     font-family: Poppins;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
-    background: #E02C6D;
+    border: 2px solid #E02C6D;
+    padding: 0 10px;
 
 }
 
@@ -97,7 +93,7 @@ section {
 
 .main_menu ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     line-height: 46px;
 }
 
@@ -677,7 +673,7 @@ section {
     .search_menu {
         display: block;
         display: grid;
-        justify-content: left;
+
 
     }
 
@@ -863,7 +859,6 @@ section {
     .search_menu {
         display: block;
         display: grid;
-        justify-content: left;
 
     }
 
@@ -1032,13 +1027,16 @@ section {
 
     }
 
+    .menu_login {
+        flex-basis: 50%;
+        margin-left: 30px;
+    }
 
     .search_menu {
         display: block;
         display: grid;
-        justify-content: left;
-        margin-left: 30px;
-
+        justify-content: right;
+        margin-right: 40px;
     }
 
     .search_menu i {
