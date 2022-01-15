@@ -367,7 +367,7 @@ section {
 /* =====================================
             product part end
 ====================================== */
-/* .product_area {
+.product_area {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
@@ -431,7 +431,7 @@ section {
     .button-1 {
         padding: 16px 48px;
     }
-} */
+}
 
 /* =====================================
             product part end
